@@ -13,6 +13,7 @@ a{
 button{
     padding: 0;
     border: none;
+    background-color: transparent;
 }
 ul{
     list-style: none;
@@ -141,13 +142,41 @@ line-height: normal;
    background-color: #fff;
    display: block;
    text-align: center;
+   padding-top: 60px;
    }
+   .menu__close-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+   }
+   .menu__item{
+     margin-bottom: 30px;
+     font-size: 24px;
+     font-family: 'Cormorant', serif;
+   }
+   .mobile-menu{
+   
+    padding-top: 60px;
+    margin: 60px 30px;
+    border-top: 2px solid #f7f2EA;
+   }
+.mobile-actions{
+    background-color: #f7f2EA;
+    height: 60px;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
    .menu__btn{
     display: flex;
    }
    .menu{
     order: -1;
     margin-right: O;
+   }
+   .mobile-menu__item{
+    margin-bottom: 35px;
    }
    .logo{
     margin-left: auto;
